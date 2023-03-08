@@ -1,0 +1,81 @@
+
+.boxCard {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1),
+    0 6px 3px 0 rgba(0, 0, 0, 0.11);
+}
+
+.contentCardBody .design{
+    color: var(--primary-color);
+}
+
+.camera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: var(--primary-color);
+}
+
+/* rate & icons  */
+.rate {
+    color: var(--primary-color);
+    padding-right: 5px;
+}
+
+.stars .warning {
+    font-size: 12px;
+    color: #ff9b26;
+    padding: 0px 3px;
+}
+
+.stars .light {
+    font-size: 12px;
+    color: #eaecf0;
+    padding: 0px 3px;
+}
+
+
+/* client */
+.clientImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.nameClient {
+    font-size: 14px;
+}
+
+.enrolled {
+    font-size: 13px;
+}
+
+.price {
+    color: var(--primary-color);
+}
+
+/* button */
+
+.btnCart1 button{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+.btnCart1 button:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btnCart button {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btnCart button:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}

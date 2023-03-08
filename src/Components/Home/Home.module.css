@@ -1,0 +1,296 @@
+:root {
+    --primary-color: #7f56d9;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+/* intro */
+.intro h1{
+    font-size: 4.6vw;
+}
+
+.intro h1 span{
+    color: var(--primary-color);
+}
+
+.holder input {
+    padding-left: 30px;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1),
+    0 6px 3px 0 rgba(0, 0, 0, 0.11);
+}
+
+.formControlCustom:focus{
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1),
+    0 6px 3px 0 rgba(0, 0, 0, 0.11);
+}
+
+.iconSearch{
+    top: 30%;
+    padding: 0px 10px;
+}
+
+.startBtn{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1),
+    0 6px 3px 0 rgba(0, 0, 0, 0.11);
+}
+
+
+/* circle img */
+.circle{
+    width: 22rem;
+    height: 22rem;
+    top: 55%;
+    z-index: -2;
+}
+
+.rectangle{
+    z-index: -1;
+    bottom: 0;
+    right: 20%;
+    left: 12%;
+
+}
+
+.medalIntro {
+    background-color: #f9ae34;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* followers */
+
+.numFollowers {
+    bottom: 0;
+    left: 10px;
+    background-color: #7f56d9;
+    width: 100px;
+    height: 60px;
+    border-radius: 100px 100px 0 0;
+}
+
+.numFollowers i {
+    color: #9e77ed;
+}
+
+
+.followersPosition {
+    z-index: 4;
+    top: 0;
+    right: 5%;
+
+}
+
+
+/* counting */
+
+.countIntro{
+    font-size: 9px;
+}
+
+.numCountIntro{
+    font-size: 20px;
+}
+
+.graduations{
+font-size: 6px;
+}
+
+.countingPosition {
+    z-index: 3;
+    top: 50%;
+    left: 0;
+}
+
+/* circleDiv */
+.circleDiv{
+    width: 48px;
+    height: 48px;
+    flex-grow: 0;
+    margin: 4.228rem 9.518rem 0 0;
+    background-color: #e9d7fe;
+    border-radius: 50%;
+    bottom: -4px;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+/* tutors */
+.chalkboardIntro{
+        background-color: var(--primary-color);
+        color: #fff;
+        width: 45px;
+        height: 45px;
+        border-radius: 16px;
+    
+}
+
+.tutorsIntro{
+    font-size: 14px;
+}
+
+.numTutorsIntro{
+    font-size: 21px;
+}
+
+
+.tutorsPosition{
+    z-index: 4;
+    right: 10%;
+    bottom: -5%;
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+/* our Services */
+.services p {
+    width: 80%;
+    font-size: 25px;
+}
+
+.title span {
+    color: var(--primary-color);
+}
+
+.title h1 {
+    width: 70%;
+    margin: auto;
+    color: #101828;
+    /* font-size: 2.5rem; */
+}
+
+.serchIcon {
+    background-color: #f4ebff;
+    color: var(--primary-color);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.capIcon {
+    background-color: #e0eaff;
+    color: #4883ff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.medalIcon {
+    background-color: #fce7f6;
+    color: #c11574;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+/* Courses */
+.titleBtn h1{
+    /* background-color: #4883ff; */
+    font-weight: 600;
+}
+
+.titleBtn button {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.titleBtn button:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+/* Advance with lorem */
+.videoIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    color: var(--primary-color);
+    background-color: #f0eaf8;
+    border-radius: 16px;
+    margin: 20px 0px;
+}
+
+.advanceContent p {
+    font-size: 22px;
+}
+
+.qualityContent p {
+    width: 90%;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+/* Explore Services */
+.textLogo {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.textLogo:hover {
+    color: var(--primary-color);
+}
+
+.exploreServices .content {
+    width: 90%;
+    height: 85%;
+    border-radius: 8px;
+    border: solid 1px var(--primary-color);
+    background-color: #fff;
+}
+
+.exploreServices p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.67;
+    color: #606176;
+}
+
+.exploreServices span {
+    color: var(--primary-color);
+    font-size: 17px;
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+/* Subscribe */
+.subscribe {
+    background-color: var(--primary-color);
+    margin: 80px 0px;
+}
+
+.subscribe h2 {
+    font-weight: 600;
+}
+
+.subscribe .content {
+    width: 85%;
+    margin: auto;
+}
+
+.subscribe input {
+    width: 30%;
+}
+
+.subscribe input:focus {
+    box-shadow: none;
+}
+
+.subscribe button {
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.subscribe button:hover {
+    background-color: var(--primary-color);
+}

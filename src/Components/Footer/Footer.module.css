@@ -1,0 +1,22 @@
+.footer{
+    background-color:  #1b1b1b;
+    color: white;
+}
+
+.footerContainer{
+    width: 90%;
+    margin: auto;
+}
+
+.footerContainer ul{
+    list-style: none;
+    color: #cfcfcf;
+}
+
+.footerContainer ul li{
+    font-weight: 500;
+}
+
+.title{
+    font-size: 15px;
+}
